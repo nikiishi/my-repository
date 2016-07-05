@@ -37,14 +37,14 @@
         <ul class="dropdown-menu">
           <li><a href="#">Guitars</a></li>
           <li><a href="#">Basses</a></li>
-          <li><a href="#">Acoustics</a></li>
+          <li><a href="<c:url value="/add" />">Add Products</a></li>
         </ul>
       </li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Custom Shop <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Overview</a></li>
+          <li><a href="<c:url value="/Overview" />">Overview</a></li>
           <li><a href="#">Custom Gallery</a></li>
-          </ul>
+          </ul>s
       </li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Dealers<span class="caret"></span></a>
         <ul class="dropdown-menu">
